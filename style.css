@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+    background: rgb(184, 252, 252);
+}
+
+body {
+    min-height: 100vh;
+    height: 100%;
+    text-align: center;
+    background: rgb(184, 252, 252);
+    background: linear-gradient(0deg, rgba(184, 252, 252, 1) 0%, rgba(252, 245, 206, 1) 100%);
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #666;
+}
+
+header {
+    padding: 40px 0;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.card {
+    margin: 20px;
+    max-width: 300px;
+}
